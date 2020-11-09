@@ -31,6 +31,7 @@ public class PlayerController1 : MonoBehaviour
 
         transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * playerSpeed);
 
+        /*
         if (onMoveCube == true)
         {
             transform.position = new Vector3(transform.position.x, transform.position.y, moveCube.transform.position.z);
@@ -40,6 +41,7 @@ public class PlayerController1 : MonoBehaviour
         {
             transform.Translate(Vector3.forward * Time.deltaTime * verticalInput * playerSpeed);
         }
+        */
         PlayerJump();       
     }
 
